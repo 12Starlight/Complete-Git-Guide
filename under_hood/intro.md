@@ -10,7 +10,7 @@
 
 <kbd>git branch -M main</kbd> ~ Renames master branch to main
 
-<kbd>git remote add origin [git@github.com:12Starlight/Complete-Git-Guilde.git]</kbd> ~ Adds a new remote url in the directory the respository is stored at
+<kbd>git remote add origin `[git@github.com:12Starlight/Complete-Git-Guilde.git]`</kbd> ~ Adds a new remote url in the directory the respository is stored at
 
 <kbd>git push -u origin main</kbd> ~ Add upstream tracking reference and push to origin (default) remote repository
 
