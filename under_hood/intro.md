@@ -2,6 +2,8 @@
 
 <kbd>mkdir [git_directory]</kbd> ~ Create directory to store git
 
+<kbd>cd [git_directory]</kbd> ~ Navigate to inside git_directory
+
 <kbd>echo "# Complete-Git-Guilde" >> README.md</kbd> ~ Creates README using Unix Command Line
 
 <kbd>git init</kbd> ~ Creates new repository
