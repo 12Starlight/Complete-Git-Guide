@@ -18,4 +18,4 @@
 
 **`Note`**:
 
-Just liek the branch name "master" does not have any special meaning in Git, neither does "origin". While "master" is the default name for a starting branch when you run <kbd>git init</kbd> which is the only reason it is widely used, "origin" is the default name for a remote when you run <kbd>git clone</kbd>. If you run <kbd>git clone -o booyah</kbd> instead, then you will have `booyah/master` as your default remote branch.
+Just like the branch name "master" does not have any special meaning in Git, neither does "origin". While "master" is the default name for a starting branch when you run <kbd>git init</kbd> which is the only reason it is widely used, "origin" is the default name for a remote when you run <kbd>git clone</kbd>. If you run <kbd>git clone -o booyah</kbd> instead, then you will have `booyah/master` as your default remote branch.
