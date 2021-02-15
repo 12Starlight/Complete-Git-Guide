@@ -1,5 +1,7 @@
 # **Introduction to Git and GitHub**
 
+<kbd>mkdir [git_directory]</kbd> ~ Create directory to store git
+
 <kbd>echo "# Complete-Git-Guilde" >> README.md</kbd> ~ Creates README using Unix Command Line
 
 <kbd>git init</kbd> ~ Creates new repository
