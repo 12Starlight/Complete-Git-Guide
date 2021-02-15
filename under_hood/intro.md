@@ -2,7 +2,7 @@
 
 <kbd>echo "# Complete-Git-Guilde" >> README.md</kbd> ~ Creates README using Unix Command Line
 
-<kbd>git init</kbd> ~ Creates repository
+<kbd>git init</kbd> ~ Creates new repository
 
 <kbd>git add</kbd> README.md ~ Adds file to repository
 
