@@ -13,3 +13,13 @@ There are four main object types `Git` stores in order to store all necessary da
 For management of `blobs` and `trees` use low level git commands:
   * <kbd>git hash-object</kbd> ~ `Creates` new object in Git structure
   * <kbd>git cat-file</kbd> ~ `Reads` Git objects
+
+ &nbsp;
+ 
+## **Creating Trees and Blobs**
+
+To create a `Blob` use <kbd>git hash-object</kbd>
+
+To read a `Blob` use <kbd>git cat-file</kbd>
+
+To create a `Tree` use <kbd>git mktree</kbd>
