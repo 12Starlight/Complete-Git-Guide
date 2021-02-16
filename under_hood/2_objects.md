@@ -34,3 +34,10 @@ When Git creates an object it turns it into a Hash. That hash is then stored ins
 
 &nbsp;
 
+<kbd>echo [`"Hello, Git"`]</kbd> ~ Echos the input to standard output
+
+<kbd>`|`</kbd> ~ Redirects the standard output to the next command
+
+<kbd>--stdin</kbd> ~ This options allows <kbd>git hash-object</kbd> to take it's input from
+
+<kbd>-w</kbd> ~ Writes the file
