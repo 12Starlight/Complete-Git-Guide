@@ -77,4 +77,4 @@ Similar to `JSON Objects` which store key value pairs, `Git` does the same thing
 
 **`Note`**:
 
-Git repository stores files independently in it's own "file system" in the "objects" direcotry. These files are separate and independent from the files stored on your computer. 
+The `Git` repository stores files independently in it's own "file system" in the "objects" direcotry. These files are separate and independent from the files stored on your computer. 
