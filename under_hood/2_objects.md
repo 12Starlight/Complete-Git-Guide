@@ -44,7 +44,7 @@ When Git creates an object and stores it in it's file system, Git turns it into 
 
 &nbsp;
 
-The `Folder name` + `File name` equals the Hash.
+Git creates files and folders based on the hash which is created from the input. The first two characters of the hash make up the folder name, while the rest of the hash equals the file name. The `Folder name` + `File name` equals the Hash.
 
 &nbsp;
 
@@ -53,8 +53,6 @@ The `Folder name` + `File name` equals the Hash.
 The new file or `Blob` was created ONLY in the Git repository, in the ".git/objects" folder.
 
 Our project folder "Git" is still empty, if this was all that we created (not counting hidden system .DS_Store file and .git folder).
-
-Git creates files and folders based on the hash of the input.
 
 &nbsp;
 
