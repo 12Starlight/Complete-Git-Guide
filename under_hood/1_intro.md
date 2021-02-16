@@ -48,4 +48,6 @@ Now type <kbd>cd .git</kbd> to navigate inside the `.git` hidden folder. There y
   * objects ~ Directory
   * refs ~ Directory 
 
+&nbsp;
+
 To read any of the files type <kbd>cat `<file_name>`</kbd>. For larger files you can pipe <kbd>| less</kbd> into the less command for a more readable format. Then type <kbd>:q</kbd> to exit. 

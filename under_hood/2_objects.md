@@ -7,3 +7,9 @@ There are four main object types `Git` stores in order to store all necessary da
   * Tree ~ Stores directories which can be empty or contain blobs and or other trees/directories
   * Commit ~ Allows us to store different versions of our project
   * Annotated Tag ~ Persistent text pointer to specific commit
+
+&nbsp;
+
+For management of `blobs` and `trees` use low level git commands:
+  * <kbd>git hash-object</kbd> ~ `Creates` new object in Git structure
+  * <kbd>git cat-file</kbd> ~ `Reads` Git objects
