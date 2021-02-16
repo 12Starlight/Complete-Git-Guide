@@ -23,3 +23,14 @@ To create a `Blob` use <kbd>git hash-object</kbd>
 To read a `Blob` use <kbd>git cat-file</kbd>
 
 To create a `Tree` use <kbd>git mktree</kbd>
+
+When Git creates an object it turns it into a Hash. That hash is then stored inside a folder.
+
+![alt txt](./assets/creating.png "Creating Blob")
+
+&nbsp;
+
+![alt txt](./assets/inside_b7.png)
+
+&nbsp;
+
