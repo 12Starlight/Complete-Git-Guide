@@ -52,4 +52,11 @@ The `Folder name` + `File name` equals the Hash.
 
 The new file or `Blob` was created ONLY in the Git repository, in the ".git/objects" folder.
 
-Our project folder "Git" is still empty, if this was all that we created (not counting hidden system .DS_Store file and .git folder)
+Our project folder "Git" is still empty, if this was all that we created (not counting hidden system .DS_Store file and .git folder).
+
+Git creates files and folders based on the hash of the input.
+
+&nbsp;
+
+## **JSON vs. Git Dababase**
+
