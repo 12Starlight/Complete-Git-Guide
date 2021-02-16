@@ -77,4 +77,4 @@ Similar to `JSON Objects` which store key value pairs, `Git` does the same thing
 
 **`Note`**:
 
-Git files are separate and independent from files in file system stored on computer.
+Git files are separate and independent from files in the file system stored on computer.
