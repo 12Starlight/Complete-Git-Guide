@@ -34,17 +34,19 @@ When Git creates an object and stores it in it's file system, Git turns it into 
 
 &nbsp;
 
-<kbd>echo [`"Hello, Git"`]</kbd> ~ Echos the input to standard output
+<kbd>echo [`"Hello, Git"`]</kbd> ~ Echos the input to Standard Output
 
 <kbd>`|`</kbd> ~ Redirects the standard output to the next command
 
-<kbd>--stdin</kbd> ~ This options allows <kbd>git hash-object</kbd> to take it's input from
+<kbd>--stdin</kbd> ~ This options allows <kbd>git hash-object</kbd> to take it's input from Standard Input
 
 <kbd>-w</kbd> ~ Writes the file
 
 &nbsp;
 
 The `Folder name` + `File name` equals the Hash.
+
+&nbsp;
 
 **`Note`**:
 
