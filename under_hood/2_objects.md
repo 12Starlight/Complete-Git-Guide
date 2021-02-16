@@ -36,7 +36,7 @@ When Git creates an object and stores it in it's file system, Git turns it into 
 
 <kbd>echo [`"Hello, Git"`]</kbd> ~ Echos the input to Standard Output
 
-<kbd>`|`</kbd> ~ Redirects the standard output to the next command
+<kbd>`|`</kbd> ~ Redirects the Standard Output to the next command
 
 <kbd>--stdin</kbd> ~ This options allows <kbd>git hash-object</kbd> to take it's input from Standard Input
 
