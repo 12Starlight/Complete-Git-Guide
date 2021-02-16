@@ -24,7 +24,7 @@ To read a `Blob` use <kbd>git cat-file</kbd>
 
 To create a `Tree` use <kbd>git mktree</kbd>
 
-When Git creates an object it turns it into a Hash. That hash is then stored inside a folder.
+When Git creates an object and stores it in it's file system, Git turns it into a Hash. That hash is then stored inside a folder it also creates.
 
 ![alt txt](./assets/creating.png "Creating Blob")
 
@@ -41,3 +41,13 @@ When Git creates an object it turns it into a Hash. That hash is then stored ins
 <kbd>--stdin</kbd> ~ This options allows <kbd>git hash-object</kbd> to take it's input from
 
 <kbd>-w</kbd> ~ Writes the file
+
+&nbsp;
+
+The `Folder name` + `File name` equals the Hash.
+
+**`Note`**:
+
+The new file or `Blob` was created ONLY in the Git repository, in the ".git/objects" folder.
+
+Our project folder "Git" is still empty, if this was all that we created (not counting hidden system .DS_Store file and .git folder)
