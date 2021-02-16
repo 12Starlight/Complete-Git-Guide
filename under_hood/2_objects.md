@@ -20,7 +20,8 @@ For management of `blobs` and `trees` use low level git commands:
 
 To create a `Blob` use <kbd>git hash-object</kbd>
 
-To read a `Blob` use <kbd>git cat-file</kbd><br>
+To read a `Blob` use <kbd>git cat-file</kbd>
+
 &nbsp; &nbsp; Options:
   * <kbd>-p</kbd> ~ Prints contents of object
   * <kbd>-s</kbd> ~ Prints size of object
