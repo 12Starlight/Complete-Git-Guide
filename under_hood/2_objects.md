@@ -198,3 +198,18 @@ To read information about this specific object:
 &nbsp;
 
 So far everything has been about how to work with files directly in the `Git Repository` by hashing objects. However, in order for files to go from a `Working Directory` to be written into the `Git Repository` or reading them from the `Git Repository`, there first needs to be a `Staging Area` that prepares the files. This area is often called the **index** area and is it is a manditory step.
+
+&nbsp;
+
+In our `Git Repository` of our above example tree, we do see our hidden `.git` directory. However, the `Working Directory` is currently empty. Now let us look at the staging area.
+  * <kbg>git ls-files -s</kbg> ~ List all files currently in the staging area or **index**
+
+&nbsp;
+
+In our above example the `Staging Area` is empty, the `Working Directory` is empty, and `Git Repository` has two files. So our project looks like this:
+
+&nbsp;
+
+![alt txt](./assets/project.png "Project Example")
+
+&nbsp;
