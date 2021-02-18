@@ -78,3 +78,12 @@ Similar to `JSON Objects` which store key value pairs, `Git` does the same thing
 **`Note`**:
 
 The `Git` repository stores files independently in it's own "file system" in the "objects" directory. These files are separate and independent from the files stored on your computer. 
+
+&nbsp;
+
+## **Using Filenames**
+
+In the previous example, we used the following command then used piping to redirect and use the command to create our blob  
+  * `echo 'Hello, Git' | git hash-object --stdin -w`
+
+Something to take notice of is that a filename was not required. The reason for this is that the file name is actually based on the `SHA1` hash of 
