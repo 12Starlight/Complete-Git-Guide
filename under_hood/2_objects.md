@@ -93,7 +93,7 @@ Keep in mind the filename of the object would still not be stored, and instead t
 
 &nbsp;
 
-## **Contents of Git Objects**
+## **Contents of Git Object**
 
 &nbsp;
 
