@@ -115,3 +115,7 @@ If we type <kbd> echo 'blob 11\0Hello, Git' | shasum </kbd>, we get the same has
 
 ![alt txt](./assets/example.png "Recreating SHA1 Hash")
 
+&nbsp;
+
+## **Closer Look at Tree Objects**
+
