@@ -176,3 +176,13 @@ You should see a `SHA1` hash of tree object!
 &nbsp;
 
 ![alt txt](./assets/mktree.png "Mktree Example")
+
+&nbsp;
+
+To read information about this specific object:
+  * Type <kbd>git cat-file -p <3b95df0ac6365c72e9b0ff6c449645c87e6e1159></kbd>
+  * You can type the first **four** characters of hash to get same result
+
+&nbsp;
+
+![alt txt](./assets/reading.png "Reading Tree")
