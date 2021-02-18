@@ -145,4 +145,16 @@ Git **`Trees`** contain:
 | 100755 | Regular executable file |
 | 120000 | Symbolic link |
 | 160000 | Gitlink |
-   
+
+&nbsp;
+
+#### **`Current Tree Example`**:
+
+&nbsp;
+
+![alt txt](./assets/git_tree.png "Current Tree Example")
+
+&nbsp;
+
+Now we want to create a git tree and pointers to our blobs. To find the files you want to store in the tree, navigate to the directory your `.git` folder is stored and type <kbd>find .git/objects -type f</kbd>
+
