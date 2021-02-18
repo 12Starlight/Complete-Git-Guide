@@ -119,3 +119,14 @@ If we type <kbd> echo 'blob 11\0Hello, Git' | shasum </kbd>, we get the same has
 
 ## **Closer Look at Tree Objects**
 
+&nbsp;
+
+![alt txt](./assets/tree.png "Git Tree Objects")
+
+&nbsp;
+
+Git **`Trees`** contain:
+  * Permissions
+  * Type
+  * Hash
+  * File Name
