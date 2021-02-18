@@ -130,3 +130,19 @@ Git **`Trees`** contain:
   * Type
   * Hash
   * File Name
+
+&nbsp;
+
+#### **`Permissions`**:
+
+&nbsp;
+
+| Id | Permission |
+|:- |:- |
+| **040000** | Directory |  
+| **100644** | Regular non-executable file |
+| 100664 | Regular non-executable group-writeable file |
+| 100755 | Regular executable file |
+| 120000 | Symbolic link |
+| 160000 | Gitlink |
+   
