@@ -197,7 +197,7 @@ To read information about this specific object:
 
 &nbsp;
 
-So far everything has been about how to work with files directly in the `Git Repository` by hashing objects. However, in order for files to go from a `Working Directory` to be written into the `Git Repository` or reading them from the `Git Repository`, there first needs to be a `Staging Area` that prepares the files. This area is often called the **index** area and is it is a manditory step.
+So far everything has been about how to work with files directly in the `Git Repository` by hashing objects. However, in order for files to go from a `Working Directory` to be written into the `Git Repository` or reading them from the `Git Repository`, there first needs to be a `Staging Area` that prepares the files. This area is often called the **index** area and it is a manditory step.
 
 &nbsp;
 
