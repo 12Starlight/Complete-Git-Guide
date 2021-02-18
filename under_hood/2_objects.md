@@ -186,3 +186,15 @@ To read information about this specific object:
 &nbsp;
 
 ![alt txt](./assets/reading.png "Reading Tree")
+
+&nbsp;
+
+## **Staging Area**
+
+&nbsp;
+
+![alt txt](./assets/staging_area.png "Diagram of Staging")
+
+&nbsp;
+
+So far everything has been about how to work with files directly in the `Git Repository`. However, in order for files to go from a `Working Directory` to the `Git Repository` and vice versa, there first needs to be a `Staging Area` that prepares the files.
