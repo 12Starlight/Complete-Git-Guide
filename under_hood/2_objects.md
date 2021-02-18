@@ -156,5 +156,23 @@ Git **`Trees`** contain:
 
 &nbsp;
 
-Now we want to create a git tree and pointers to our blobs. To find the files you want to store in the tree, navigate to the directory your `.git` folder is stored and type <kbd>find .git/objects -type f</kbd>
+Now we want to create a git tree and two pointers to our blobs. To find the files you want to store in the tree, navigate to the directory your `.git` folder is stored and type <kbd>find .git/objects -type f</kbd>. Our tree object is going to have file permissions that are **100644** with type **blob** and names as **file1.txt** and **file2.txt**. 
+  * **`Note`**: Type <kbd>find .git/objects/{44,b7} -type f</kbd> to get the specific blobs mentioned, due to our git object directory having more files than the above example
+  
+&nbsp;
+  
+To Create Tree Object:
+  * <kbd>nano ~/Desktop/temp-tree.txt</kbd>, then list:
+    * 100644 blob b7aec520dec0a7516c18eb4c68b64ae1eb9b5a5e	file1.txt
+    * 100644 blob 4400aae52a27341314f423095846b1f215a7cf08	file2.txt  
+  
+  * Type: <kbd> cat ~/Desktop/temp-tree.txt  </kbd> `|` <kbd> git mktree </kbd> ~ To create a tree
+    * <kbd>--help</kbd> ~ Option help: To see `Git Manual` for <kbd>git mktree</kbd>
 
+&nbsp;
+
+You should see a `SHA1` hash of tree object!
+
+&nbsp;
+
+![alt txt](./assets/mktree.png "Mktree Example")
