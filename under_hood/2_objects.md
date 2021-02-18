@@ -97,4 +97,21 @@ Keep in mind the filename of the object would still not be stored, and instead t
 
 &nbsp;
 
-![alt txt](./assets/object_blob.png)
+![alt txt](./assets/object_blob.png "Content of Git Object")
+
+&nbsp;
+
+To prove this, recall that when creating our blob using git hash-object we got 
+
+&nbsp;
+
+![alt txt](./assets/creating.png "Creating blob")
+
+&nbsp;
+
+If we type <kbd> echo 'blob 11\0Hello, Git' | shasum </kbd>, we get the same hash!
+
+&nbsp;
+
+![alt txt](./assets/example.png "Recreating SHA1 Hash")
+
