@@ -202,7 +202,7 @@ So far everything has been about how to work with files directly in the `Git Rep
 &nbsp;
 
 In our `Git Repository` of our above example tree, we do see our hidden `.git` directory. However, the `Working Directory` is currently empty. Now let us look at the staging area.
-  * <kbg>git ls-files -s</kbg> ~ List all files currently in the staging area or **index**
+  * <kbd>git ls-files -s</kbd> ~ List all files currently in the staging area or **index**
 
 &nbsp;
 
