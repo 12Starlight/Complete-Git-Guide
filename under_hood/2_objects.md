@@ -12,7 +12,7 @@ There are four main object types `Git` stores in order to store all necessary da
 
 For management of `blobs` and `trees` use low level git commands:
   * <kbd>git hash-object</kbd> ~ `Creates` new object in Git structure
-  * <kbd>git cat-file</kbd> ~ `Reads` Git objects
+  * <kbd>git cat-file <`folder_name`><`file_name`></kbd> ~ `Reads` Git objects
 
  &nbsp;
  
