@@ -89,7 +89,7 @@ In the previous example, we used the following command then used piping to redir
 Something to take notice of is that a filename was not required. The reason for this is that the file name is actually based on the `SHA1` hash of the object being stored. The object was created based on the contents of the file. However, if you did want to create an object using a file name, simply use the same command followed by the file name and the <kbd>-w</kbd> write to disk option. 
   * `git hash-object <filename> -w`
 
-The filename of the object would still not be stored. Instead the `SHA1` hash created based on the contents of the file would end up being stored 😉 &nbsp; Also, size and type would be stored inside the blob too. This would cause the `SHA1` hash to be changed from had these not been included. 
+Although we are using the filename, it still would not be stored as the value for the key value pair for that object. Instead the `SHA1` hash would be stored which was created based on the contents of that file 😉 &nbsp; In addition, the size and type would be stored inside the blob as well. This causes the contents of the file to be altered and the `SHA1` hash to be changed from had these not been included. 
 
 &nbsp;
 
