@@ -213,3 +213,35 @@ In our above example the `Staging Area` is empty, the `Working Directory` is emp
 ![alt txt](./assets/project.png "Project Example")
 
 &nbsp;
+
+Now bc we created the tree which is the root tree which points to two blobs, we want to put the two blobs into the `Staging Area`. 
+  * Root trees do not get added
+  * <kbd>git read-tree `<hash>`</kbd>
+
+&nbsp;
+
+![alt txt](./assets/read_example.png "Read Tree Example")
+
+&nbsp;
+
+![alt txt](./assets/read_tree.png "Staging Area Example")
+
+&nbsp;
+
+At the moment we have `file1.txt` and `file2.txt` in the `Staging Area` using the <kbd>git read-tree</kbd> command which put them from the `Git Repository` into the `Staging Area`. Now it is time to put these file into the `Working Directory` which is currently empty. 
+  * <kbd>git checkout-index -a</kbd> ~ Puts all files from `Staging Area` into `Working Directory`
+  * Currently all files in the `Git Repository` are the same as those in the `Staging Area` which is annotated by the `0` next to the hash
+
+&nbsp;
+
+![alt txt](./assets/files.png "Files Added To Working Directory")
+
+&nbsp;
+
+![alt txt](./assets/working_directory.png "Files Added To Working Directory Diagram")
+
+&nbsp;
+
+Finally, we have completed the entire process of retrieving the files from the `Git Repository` and putting them into the `Working Directory`. 
+
+**`Note`**: We have manualy inserted files into the `Git Repository`. Then retrieved them to put into the `Staging Area`. After, we took the files and read them from the `Staging Area`, and put them into the `Working Directory`.
