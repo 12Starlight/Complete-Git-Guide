@@ -28,4 +28,4 @@ Tree object in the `Git database`.
 
 &nbsp;
 
-**`Note`**: Git `commit` is an object, every object must have a SHA1 hash
+**`Note`**: Git `commit` is an object, every object must have a `SHA1` hash
