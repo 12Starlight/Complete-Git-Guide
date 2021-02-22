@@ -20,7 +20,13 @@ The content of a `commit` have the following inside:
 Commits allow us to store different versions (snapshots) of our project in the 
 database. This gives us the ability to move to any version of the project by 
 checking out the specific commit. This is done using a `pointer` to s specific 
-Tree object in the `Git database`.
+Tree object in the `Git database`. 
+
+The commit is just a "wrapper" for the Tree object. You can have multiple 
+commits/pointers and multiple trees. Then you can "check out" these commits and
+take files out of the `Git Repository` and put them into the `Working Directory`.
+Previously, we used low level commands <kbd>git read-tree `<hash>`</kbd> and 
+<kbd>git checkout index</kbd> to accomplish the same thing.
 
 &nbsp;
 
