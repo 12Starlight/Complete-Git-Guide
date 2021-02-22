@@ -25,8 +25,11 @@ Tree object in the `Git database`.
 The commit is just a "wrapper" for the Tree object. You can have multiple 
 commits/pointers and multiple trees. Then you can "check out" these commits and
 take files out of the `Git Repository` and put them into the `Working Directory`.
+
 Previously, we used low level commands <kbd>git read-tree `<hash>`</kbd> and 
-<kbd>git checkout index</kbd> to accomplish the same thing.
+<kbd>git checkout index</kbd> to accomplish the same thing. This put files in
+the root directory. However, with <kbd>git commit -m `<"Something here">`</kbd>
+this can be accomplished with just one step. 
 
 &nbsp;
 
