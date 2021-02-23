@@ -38,3 +38,11 @@ this can be accomplished with just one step.
 &nbsp;
 
 **`Note`**: Git `commit` is an object, every object must have a `SHA1` hash
+
+&nbsp;
+
+## **Configuring Author Name and Email**
+
+Before using `commit` <kbd>author_name</kbd> and <kbd>email</kbd> need to be 
+configured. This is done using the following commands. 
+  * 
