@@ -43,6 +43,10 @@ this can be accomplished with just one step.
 
 ## **Configuring Author Name and Email**
 
-Before using `commit` <kbd>author_name</kbd> and <kbd>email</kbd> need to be 
-configured. This is done using the following commands. 
-  * 
+`Git` is a distributed version controll system which allows many people to be
+be working on a project. Before using `commit` <kbd>author_name</kbd> and 
+<kbd>email</kbd> need to be configured. This is done using the following 
+commands. 
+  * <kbd>git config --global user.name <`Name`></kbd> ~ Sets name globaly
+  * <kbd>git config --global user.email <`Email`></kbd> ~ Sets email globaly
+  * <kbd>git config --list</kbd> ~ Lists authors that worked on portion
