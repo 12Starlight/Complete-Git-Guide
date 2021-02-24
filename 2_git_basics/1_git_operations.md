@@ -65,3 +65,11 @@ If you want to create a new commit, you must have some changes. Those changes
 must be placed into the `Staging Area`. 
   * <kbd>git ls-files -s</kbd> ~ Shows what is index
   * <kbd>git commit -m <"something to commit"></kbd>
+
+&nbsp;
+
+**`Note`**: The x, will now disappear after you commit the changes. 
+
+&nbsp;
+
+![alt txt](./assets/x.png "Changes need to be commited")
