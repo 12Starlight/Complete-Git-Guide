@@ -46,10 +46,16 @@ this can be accomplished with just one step.
 `Git` is a distributed version controll system which allows many people to be
 be working on a project. Before using `commit`, <kbd>author_name</kbd> and 
 <kbd>email</kbd> need to be configured. This is done using the following 
-commands. 
+commands. `Git` will take this information and attach it to every commit. 
   * <kbd>git config --global user.name <`Name`></kbd> ~ Sets name globaly
   * <kbd>git config --global user.email <`Email`></kbd> ~ Sets email globaly
-  * <kbd>git config --list</kbd> ~ Lists authors that worked on portion
+  * <kbd>git config --list</kbd> ~ Lists authors that worked on portion by reading the configuration of the `Git`
+
+&nbsp;
+
+**`Note`**: If you are using GitHub for hosting your repositories, it is 
+*recommended* (but *not required*) to set in your local Git config name and
+email same as used at GitHub account.
 
 &nbsp;
 
