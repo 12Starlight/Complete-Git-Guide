@@ -61,3 +61,7 @@ email same as used at GitHub account.
 
 ## **Creating Commit**
 
+If you want to create a new commit, you must have some changes. Those changes
+must be placed into the `Staging Area`. 
+  * <kbd>git ls-files -s</kbd> ~ Shows what is index
+  * <kbd>git commit -m <"something to commit"></kbd>
