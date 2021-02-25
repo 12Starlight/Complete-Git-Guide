@@ -64,7 +64,8 @@ email same as used at GitHub account.
 If you want to create a new commit, you must have some changes. Those changes
 must be placed into the `Staging Area`. 
   * <kbd>git ls-files -s</kbd> ~ Shows what is index
-  * <kbd>git commit -m <"something to commit"></kbd>
+  * <kbd>git commit</kbd> ~ Commit changes to working directory
+  * <kbd>-m <"something to commit"></kbd> ~ Option allows you attach description for commit  
 
 &nbsp;
 
@@ -73,3 +74,11 @@ must be placed into the `Staging Area`.
 &nbsp;
 
 ![alt txt](./assets/x.png "Changes need to be commited")
+
+&nbsp;
+
+## **Commit Structure**
+
+&nbsp;
+
+![alt txt](./assets/commit_structure.png "Commit Structure")
